@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ZBOOK 14U G6\\source\\repos\\ContactPageApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{308D0C2F-3E2D-4D99-A4F6-FD6054851711}|ContactPageApi.csproj|c:\\users\\zbook 14u g6\\source\\repos\\contactpageapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{308D0C2F-3E2D-4D99-A4F6-FD6054851711}|ContactPageApi.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{308D0C2F-3E2D-4D99-A4F6-FD6054851711}|ContactPageApi.csproj|c:\\users\\zbook 14u g6\\source\\repos\\contactpageapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{308D0C2F-3E2D-4D99-A4F6-FD6054851711}|ContactPageApi.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308D0C2F-3E2D-4D99-A4F6-FD6054851711}|ContactPageApi.csproj|c:\\users\\zbook 14u g6\\source\\repos\\contactpageapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{308D0C2F-3E2D-4D99-A4F6-FD6054851711}|ContactPageApi.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{308D0C2F-3E2D-4D99-A4F6-FD6054851711}|ContactPageApi.csproj|c:\\users\\zbook 14u g6\\source\\repos\\contactpageapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -41,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,7 +49,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\ZBOOK 14U G6\\source\\repos\\ContactPageApi\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -70,18 +70,17 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-10T21:36:13.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T21:36:13.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\ZBOOK 14U G6\\source\\repos\\ContactPageApi\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
               "ToolTip": "C:\\Users\\ZBOOK 14U G6\\source\\repos\\ContactPageApi\\.gitignore",
               "RelativeToolTip": ".gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAdAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-05-10T21:35:42.866Z",
               "EditorCaption": ""
@@ -96,8 +95,7 @@
               "RelativeToolTip": "Services\\Interfaces\\IPhotoService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T21:30:21.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T21:30:21.899Z"
             },
             {
               "$type": "Document",
@@ -109,21 +107,19 @@
               "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T21:30:16.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T21:30:16.161Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ContactPageMVC",
+              "Title": "ContactPageMVC.csproj",
               "DocumentMoniker": "C:\\Users\\ZBOOK 14U G6\\source\\repos\\ContactPageMVC\\ContactPageMVC.csproj",
               "RelativeDocumentMoniker": "..\\ContactPageMVC\\ContactPageMVC.csproj",
               "ToolTip": "C:\\Users\\ZBOOK 14U G6\\source\\repos\\ContactPageMVC\\ContactPageMVC.csproj",
               "RelativeToolTip": "..\\ContactPageMVC\\ContactPageMVC.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-10T21:30:04.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T21:30:04.452Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "Helpers\\CloudinarySettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T21:29:47.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T21:29:47.498Z"
             },
             {
               "$type": "Document",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAIMAAAAAAAAAAAAcwGwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T10:21:05.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T10:21:05.544Z"
             }
           ]
         },
