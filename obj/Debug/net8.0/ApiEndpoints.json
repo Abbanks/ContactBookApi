@@ -227,7 +227,7 @@
   {
     "ContainingType": "ContactPageApi.Controllers.UserController",
     "Method": "DeleteUser",
-    "RelativePath": "api/User/delete/{id}",
+    "RelativePath": "api/User/delete",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -235,7 +235,7 @@
       {
         "Name": "id",
         "Type": "System.String",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -276,7 +276,7 @@
   {
     "ContainingType": "ContactPageApi.Controllers.UserController",
     "Method": "AddPhoto",
-    "RelativePath": "api/User/photo/{id}",
+    "RelativePath": "api/User/photo",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -284,7 +284,7 @@
       {
         "Name": "id",
         "Type": "System.String",
-        "IsRequired": true
+        "IsRequired": false
       },
       {
         "Name": "file",
@@ -297,7 +297,7 @@
   {
     "ContainingType": "ContactPageApi.Controllers.UserController",
     "Method": "GetUsersBySearchTerm",
-    "RelativePath": "api/User/Search",
+    "RelativePath": "api/User/search",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -313,7 +313,7 @@
   {
     "ContainingType": "ContactPageApi.Controllers.UserController",
     "Method": "UpdateUser",
-    "RelativePath": "api/User/update/{id}",
+    "RelativePath": "api/User/update",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -321,7 +321,7 @@
       {
         "Name": "id",
         "Type": "System.String",
-        "IsRequired": true
+        "IsRequired": false
       },
       {
         "Name": "user",
