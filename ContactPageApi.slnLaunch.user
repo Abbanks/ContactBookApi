@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "ContactPageApi.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "..\\ContactPageMVC\\ContactPageMVC.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

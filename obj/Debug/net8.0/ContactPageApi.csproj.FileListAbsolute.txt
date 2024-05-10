@@ -143,3 +143,4 @@ C:\Users\ZBOOK 14U G6\source\repos\ContactPageApi\bin\Debug\net8.0\Microsoft.Ext
 C:\Users\ZBOOK 14U G6\source\repos\ContactPageApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\ZBOOK 14U G6\source\repos\ContactPageApi\bin\Debug\net8.0\CloudinaryDotNet.dll
 C:\Users\ZBOOK 14U G6\source\repos\ContactPageApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ZBOOK 14U G6\source\repos\ContactPageApi\obj\Debug\net8.0\ContactPageApi.sourcelink.json

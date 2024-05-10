@@ -10,9 +10,7 @@ namespace ContactPageApi.Services.Interfaces
         Task<PagedContacts> GetPagedContacts(int pageNumber, int pageSize);
         Task<bool> UpdateUser(string userId, UpdateUser user);
         Task<bool> DeleteUser(string id);
-        Task<Photo> AddPhoto(string id, IFormFile file);
-
-
-        //   Task<bool> IsAdminUser(string id);
+        Task<UserResponse> AddPhoto(string id, IFormFile file);
+ 
     }
 }

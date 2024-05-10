@@ -81,7 +81,7 @@ namespace ContactPageApi.Controllers
         }
 
         [HttpPut("update/{id}")]
-        [Authorize(Roles = "regular")]
+        [Authorize(Roles = "regular,admin")]
         public async Task<IActionResult> UpdateUser(string id, [FromBody] UpdateUser user)
         {
          
@@ -130,7 +130,7 @@ namespace ContactPageApi.Controllers
         }
 
         [HttpPatch("photo/{id}")]
-        [Authorize(Roles = "regular")]
+        [Authorize(Roles = "regular,admin")]
         public async Task<IActionResult> AddPhoto(string id, IFormFile file)
         {
             var user = await _userService.GetUserById(id);

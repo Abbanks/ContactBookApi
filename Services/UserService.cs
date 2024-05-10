@@ -2,7 +2,6 @@
 using ContactPageApi.Models.Entity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Claims;
 
 namespace ContactPageApi.Services.Interfaces
 {
@@ -38,7 +37,7 @@ namespace ContactPageApi.Services.Interfaces
 
         public async Task<PagedContacts> GetPagedContacts(int pageNumber, int pageSize)
         {
-        
+
             var totalContacts = await _userManager.Users.CountAsync();
 
             if (pageNumber <= 0 || pageSize <= 0)
@@ -47,7 +46,7 @@ namespace ContactPageApi.Services.Interfaces
             }
 
             var users = await _userManager.Users
-                .OrderBy(u => u.UserName)  
+                .OrderBy(u => u.UserName)
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
@@ -95,7 +94,7 @@ namespace ContactPageApi.Services.Interfaces
         }
 
 
-        public async Task<Photo?> AddPhoto(string id, IFormFile file)
+        public async Task<UserResponse?> AddPhoto(string id, IFormFile file)
         {
             var user = await _userManager.FindByIdAsync(id);
 
@@ -105,17 +104,18 @@ namespace ContactPageApi.Services.Interfaces
             {
                 return null;
             }
- 
+
             user.PublicId = result.PublicId;
             user.PhotoUrl = result.SecureUrl.AbsoluteUri;
 
             await _userManager.UpdateAsync(user);
 
-            return Map(user);
+            return MapToResponse(user);
         }
-
-      
-
-
     }
+
+
+
+
 }
+

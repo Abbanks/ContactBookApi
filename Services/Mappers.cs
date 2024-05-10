@@ -12,19 +12,12 @@ namespace ContactPageApi.Services.Interfaces
                 FirstName = appUser.FirstName,
                 LastName = appUser.LastName,
                 Email = appUser.Email,
-                PhoneNumber = appUser.PhoneNumber
+                PhoneNumber = appUser.PhoneNumber,
+                PhotoUrl = appUser.PhotoUrl
 
             };
         }
 
-
-        public Photo Map(AppUser appUser)
-        {
-            return new Photo
-            {
-                PublicId = appUser.PublicId,
-                Url = appUser.PhotoUrl
-            };
-        }
+ 
     }
 }
