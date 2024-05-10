@@ -5,16 +5,16 @@ This Contact Book API is designed to manage contact information using the ASP.NE
 
 ## Project Layout
 
-**API Endpoints**
+### API Endpoints
 
-### **GET: http://localhost:[port]/User/all?page=[current number]**
+**GET: http://localhost:[port]/User/all?page=[current number]**
 
 -   **Description**: Retrieves a paginated list of all contacts.
 -   **Authentication**: JWT authentication required.
 -   **Authorization**: Admin role required.
 -   **Pagination**: The list is limited to 50 records per page.
 
-### **GET: http://localhost:[port]/User/[id]**
+**GET: http://localhost:[port]/User/[id]**
 
 -   **Description**: Retrieves a single contact by ID.
 -   **Authentication**: JWT authentication required.
@@ -51,7 +51,7 @@ This Contact Book API is designed to manage contact information using the ASP.NE
 -   **Authentication**: JWT authentication required.
 -   **Authorization**: Admin or Regular role required.
 
-**User Roles**
+##User Roles
 
 ### **Admin**
 
