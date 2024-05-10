@@ -43,7 +43,7 @@ namespace ContactPageApi.Controllers
             }
         }
 
-        [HttpGet("Search")]
+        [HttpGet("search")]
         [Authorize(Roles = "admin,regular")]
         public IActionResult GetUsersBySearchTerm([FromQuery] string searchTerm)
         {
@@ -80,7 +80,7 @@ namespace ContactPageApi.Controllers
             }
         }
 
-        [HttpPut("update/{id}")]
+        [HttpPut("update")]
         [Authorize(Roles = "regular,admin")]
         public async Task<IActionResult> UpdateUser(string id, [FromBody] UpdateUser user)
         {
@@ -111,7 +111,7 @@ namespace ContactPageApi.Controllers
             return NotFound("User not found");
         }
 
-        [HttpDelete("delete/{id}")]
+        [HttpDelete("delete")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -129,7 +129,7 @@ namespace ContactPageApi.Controllers
             return NotFound("User not found");
         }
 
-        [HttpPatch("photo/{id}")]
+        [HttpPatch("photo")]
         [Authorize(Roles = "regular,admin")]
         public async Task<IActionResult> AddPhoto(string id, IFormFile file)
         {
