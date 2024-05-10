@@ -73,9 +73,6 @@ The project leverages the following libraries and framework:
 - ASP.NET Identity
 
 ## Demo
-
-## The Guest's page
+ 
 ![Demo](guest.gif)
-
-## The Admin's page
-![Demo](dashboard.gif)
+ 
