@@ -7,7 +7,7 @@ This Contact Book API is designed to manage contact information using the ASP.NE
 
 ### API Endpoints
 
-**GET: http://localhost:[port]/User/all?page=[current number]**
+**GET: http://localhost:[port]/User/all?page=[currentnumber]**
 
 -   **Description**: Retrieves a paginated list of all contacts.
 -   **Authentication**: JWT authentication required.
